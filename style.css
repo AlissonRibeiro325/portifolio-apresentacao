@@ -69,3 +69,22 @@ nav a:hover {
     background-color: #64ffda;
     color: #0a192f;
 }
+
+/* ==== SOBRE MIM ==== */
+.sobre {
+    background-color: #0a192f;
+    padding: 120px 60px;
+}
+.sobre .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.sobre .foto img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 3px solid #64ffda;
+}
