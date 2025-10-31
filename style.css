@@ -87,4 +87,24 @@ nav a:hover {
     height: 250px;
     border-radius: 50%;
     border: 3px solid #64ffda;
+    object-fit: cover;
+    transition: 0.3s;
+}
+.sobre .foto img:hover {
+    transform: scale(1.05);
+}
+.sobre .texto {
+    max-width: 600px;
+}
+.sobre h2 {
+    color: #64ffda;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.sobre p {
+    color: #8892b0;
+    margin-bottom: 20px;
+}
+.botoes .btn {
+    margin-right: 10px;
 }
