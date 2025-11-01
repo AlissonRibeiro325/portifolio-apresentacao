@@ -155,5 +155,101 @@ nav a:hover {
     transform: scale(1.1);
 }
 
+/* ==== PROJETOS ==== */
+.projetos {
+    background-color: #0d1117;
+    color: #e6edf3;
+    padding: 120px 60px;
+    text-align: center;
+}
+
+.projetos h2 {
+    font-size: 2.5rem;
+    color: #00b4d8;
+    margin-bottom: 10px;
+}
+
+.projetos .subtitulo {
+    color: #a1a1a1;
+    margin-bottom: 50px;
+}
+
+.projetos .cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 40px;
+    justify-items: center;
+}
+
+.projetos .card {
+    background-color: #161b22;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 180, 216, 0.15);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+    max-width: 360px;
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+.projetos .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 25px rgba(0, 245, 212, 0.3);
+}
+
+.projetos .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.projetos .card h3 {
+    margin: 15px 20px 8px;
+    color: #00f5d4;
+    font-size: 1.2rem;
+}
+
+.projetos .card p {
+    color: #cfcfcf;
+    font-size: 0.95rem;
+    margin: 0 20px 20px;
+    line-height: 1.5;
+}
+
+.projetos .links {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 20px 20px;
+}
+
+.projetos .btn {
+    background-color: #00b4d8;
+    color: #0d1117;
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 0.9rem;
+}
+
+.projetos .btn:hover {
+    background-color: #00f5d4;
+}
+
+.projetos .btn.github {
+    background-color: transparent;
+    border: 1px solid #00f5d4;
+    color: #00f5d4;
+}
+
+.projetos .btn.github:hover {
+    background-color: #00f5d4;
+    color: #0d1117;
+}
+
+
 
 
