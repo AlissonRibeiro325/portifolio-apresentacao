@@ -250,6 +250,26 @@ nav a:hover {
     color: #0d1117;
 }
 
+/* ==== CONTATO ==== */
+.contato {
+    background-color: #112240;
+    color: #ccd6f6;
+    text-align: center;
+    padding: 100px 40px;
+}
+.contato h2 {
+    color: #64ffda;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.contato .subtitulo {
+    color: #8892b0;
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto 50px auto;
+    line-height: 1.6;
+}
+
 
 
 
