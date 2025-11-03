@@ -269,6 +269,26 @@ nav a:hover {
     margin: 0 auto 50px auto;
     line-height: 1.6;
 }
+.contato-botoes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.contato .btn {
+    background-color: transparent;
+    border: 2px solid #64ffda;
+    padding: 12px 30px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.contato .btn:hover {
+    background-color: #64ffda;
+    color: #0a192f;
+    transform: scale(1.05);
+}
 
 
 
