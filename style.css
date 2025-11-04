@@ -290,6 +290,44 @@ nav a:hover {
     transform: scale(1.05);
 }
 
+/* ==== RODAPÉ ==== */
+.footer {
+    background-color: #0d1117;
+    color: #e6edf3;
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 3rem;
+}
+.footer h2 {
+    font-size: 1.5rem;
+    color: #00bfff;
+}
+.footer p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    color: #c9d1d9;
+}
+.footer-links {
+    margin: 1.2rem 0;
+}
+.footer-links a {
+    color: #00bfff;
+    margin: 0 0.8rem;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #ffffff;
+}
+.copy {
+    font-size: 0.9rem;
+    color: #8b949e;
+    margin-top: 1.5rem;
+}
+
+
 
 
 
