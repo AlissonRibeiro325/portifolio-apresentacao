@@ -381,6 +381,118 @@ nav a:hover {
     }
 }
 
+/* =========================
+   RESPONSIVIDADE - TABLET
+   ========================= */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px 40px
+    }
+
+    .hero {
+        text-align: center;
+        padding: 80px 20px;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .grid-habilidades {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    .contato form {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    footer {
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: center;
+    }
+}
+
+/* ==========================
+
+   RESPONSIVIDADE - DESKTOP 
+
+   ========================== */
+
+@media (min-width: 1025px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 80px;
+    }
+
+    nav a {
+        font-size: 1.1rem;
+    }
+
+    .hero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 120px 80px;
+        text-align: left;
+    }
+
+    .hero h1 {
+        font-size: 2.8rem;
+    }
+
+    .hero h2 {
+        font-size: 1.4rem;
+        color: #ccc;
+    }
+
+    .grid-habilidades {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+    }
+
+    .projetos .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 80px;
+    }
+}
+
+/* =================================
+   AJUSTE PARA TELAS MUITO GRANDES (1536px+)
+   ================================= */
+@media (min-width: 1530px) {
+    body {
+        max-width: 1400px;
+        margin: 0 auto; /* Centraliza o conteúdo */
+    }
+
+    header {
+        padding: 30px 100px;
+    }
+
+    .hero {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 150px 80px;
+        gap: 40px;
+    }
+}
 
 
 
